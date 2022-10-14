@@ -1,0 +1,53 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Public Sans", sans-serif;
+  font-weight: 300;
+  min-height: 100vh;
+}
+
+header .navbar-desktop {
+  width: 100%;
+  min-height: 32px;
+  padding: 16px 0px;
+  display: flex;
+  justify-content: center;
+}
+header .navbar-desktop ul {
+  list-style: none;
+  display: flex;
+  gap: 32px;
+  font-size: 18px;
+}
+header .navbar-desktop ul li {
+  width: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .navbar-desktop ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 8px 4px;
+}
+header .navbar-desktop ul li img {
+  width: 120px;
+  height: 120px;
+}
+header .navbar-desktop ul .navbar-logo-link {
+  position: absolute;
+  top: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+}/*# sourceMappingURL=style.css.map */
